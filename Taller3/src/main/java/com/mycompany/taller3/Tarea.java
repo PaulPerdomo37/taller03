@@ -12,4 +12,8 @@ import java.util.Date;
  */
 public class Tarea extends ActividadSumativa{
     private Date fechaDePublicacion;
+
+    public Tarea(String titulo, Date fechaDeEntraga, float puntajeMaximo, String contenido, float calificacion, String id) {
+        super(titulo, fechaDeEntraga, puntajeMaximo, contenido, calificacion, id);
+    }
 }
