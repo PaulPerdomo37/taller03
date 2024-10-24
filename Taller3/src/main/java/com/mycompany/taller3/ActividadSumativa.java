@@ -17,4 +17,13 @@ public class ActividadSumativa {
     protected String contenido;
     protected float calificacion;
     protected String id;
+
+    public ActividadSumativa(String titulo, Date fechaDeEntraga, float puntajeMaximo, String contenido, float calificacion, String id) {
+        this.titulo = titulo;
+        this.fechaDeEntraga = fechaDeEntraga;
+        this.puntajeMaximo = puntajeMaximo;
+        this.contenido = contenido;
+        this.calificacion = calificacion;
+        this.id = id;
+    }
 }
