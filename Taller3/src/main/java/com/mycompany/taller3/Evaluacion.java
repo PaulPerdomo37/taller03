@@ -10,5 +10,9 @@ package com.mycompany.taller3;
  */
 public class Evaluacion extends ActividadSumativa{
     private int limiteDeTiempo;
+
+    public Evaluacion(String titulo, Date fechaDeEntraga, float puntajeMaximo, String contenido, float calificacion, String id) {
+        super(titulo, fechaDeEntraga, puntajeMaximo, contenido, calificacion, id);
+    }
     
 }
