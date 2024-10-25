@@ -24,5 +24,10 @@ public class SoporteTecnico extends Usuario{
     
     public void derivarProblemaDeGestion(Administrador administrador){
     }
-    
+    public boolean isSuficienteInformacion(String contenido){
+        return true;
+    }
+    public boolean isProblemaTecnico(String contenido){
+        return true;
+    }
 }
