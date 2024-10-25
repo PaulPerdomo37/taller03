@@ -35,4 +35,9 @@ public class PersonalAcademico extends Usuario{
     public List<Incidente> getIncidentes() {
         return incidentes;
     }
+
+    public void setIncidentes(List<Incidente> incidentes) {
+        this.incidentes = incidentes;
+    }
+    
 }

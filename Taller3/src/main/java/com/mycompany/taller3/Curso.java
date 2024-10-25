@@ -34,4 +34,61 @@ public class Curso {
     public void agregarActividadSumativa(ActividadSumativa actividadSumativa){
         actividadesDelCurso.add(actividadSumativa);
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public boolean isEstadoDisponible() {
+        return estadoDisponible;
+    }
+
+    public Profesor getProfesor() {
+        return profesor;
+    }
+
+    public List<Estudiante> getListaDeEstudiantes() {
+        return listaDeEstudiantes;
+    }
+
+    public List<Foro> getForos() {
+        return foros;
+    }
+
+    public List<ActividadSumativa> getActividadesDelCurso() {
+        return actividadesDelCurso;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEstadoDisponible(boolean estadoDisponible) {
+        this.estadoDisponible = estadoDisponible;
+    }
+
+    public void setProfesor(Profesor profesor) {
+        this.profesor = profesor;
+    }
+
+    public void setListaDeEstudiantes(List<Estudiante> listaDeEstudiantes) {
+        this.listaDeEstudiantes = listaDeEstudiantes;
+    }
+
+    public void setForos(List<Foro> foros) {
+        this.foros = foros;
+    }
+
+    public void setActividadesDelCurso(List<ActividadSumativa> actividadesDelCurso) {
+        this.actividadesDelCurso = actividadesDelCurso;
+    }
+    
 }

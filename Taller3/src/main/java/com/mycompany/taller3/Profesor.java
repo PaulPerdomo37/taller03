@@ -34,6 +34,14 @@ public class Profesor extends PersonalAcademico{
     
     public void darRetroalimentacionAEstudiante(String contenido, String nombreUsuario){
     }
+
+    public List<Curso> getCursosACargo() {
+        return cursosACargo;
+    }
+
+    public void setCursosACargo(List<Curso> cursosACargo) {
+        this.cursosACargo = cursosACargo;
+    }
     
     
     //se usuaria up casting  para dividir las tareas de las evaluacion

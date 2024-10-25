@@ -33,6 +33,14 @@ public class Estudiante extends PersonalAcademico{
     
     public void realizarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
     }
+
+    public List<Curso> getListadoDeCursos() {
+        return listadoDeCursos;
+    }
+
+    public void setListadoDeCursos(List<Curso> listadoDeCursos) {
+        this.listadoDeCursos = listadoDeCursos;
+    }
     
     
 }

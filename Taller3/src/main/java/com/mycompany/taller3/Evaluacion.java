@@ -13,6 +13,14 @@ import java.util.Date;
 public class Evaluacion extends ActividadSumativa{
     private int limiteDeTiempo;
 
+    public int getLimiteDeTiempo() {
+        return limiteDeTiempo;
+    }
+
+    public void setLimiteDeTiempo(int limiteDeTiempo) {
+        this.limiteDeTiempo = limiteDeTiempo;
+    }
+
     public Evaluacion(String titulo, Date fechaDeEntraga, float puntajeMaximo, String contenido, float calificacion, String id) {
         super(titulo, fechaDeEntraga, puntajeMaximo, contenido, calificacion, id);
     }

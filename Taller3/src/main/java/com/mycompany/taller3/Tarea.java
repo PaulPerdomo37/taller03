@@ -16,4 +16,12 @@ public class Tarea extends ActividadSumativa{
     public Tarea(String titulo, Date fechaDeEntraga, float puntajeMaximo, String contenido, float calificacion, String id) {
         super(titulo, fechaDeEntraga, puntajeMaximo, contenido, calificacion, id);
     }
+
+    public Date getFechaDePublicacion() {
+        return fechaDePublicacion;
+    }
+
+    public void setFechaDePublicacion(Date fechaDePublicacion) {
+        this.fechaDePublicacion = fechaDePublicacion;
+    }
 }
