@@ -20,7 +20,8 @@ public class Incidente {
     protected List log_actualizaciones;
     protected Date fecha_cerrado;
     protected String tipo;
-    private PersonalAcademico beneficiario;
+    protected PersonalAcademico beneficiario;
+    protected Usuario responsable;
 
     public Incidente(int id, Date fecha_reportado, String estado, String titulo, String descripcion, String tipo, PersonalAcademico beneficiario) {
         this.id = id;

@@ -20,7 +20,7 @@ public class Curso {
     private List<Foro> foros;
     private List<ActividadSumativa> actividadesDelCurso;
 
-    public Curso(String id, String nombre, boolean estadoDisponible, Profesor profesor, List<Estudiante> listaDeEstudiantes) {
+    public Curso(String id, String nombre, boolean estadoDisponible, Profesor profesor) {
         this.id = id;
         this.nombre = nombre;
         this.estadoDisponible = estadoDisponible;
@@ -28,7 +28,7 @@ public class Curso {
     }
     
     public void reguistrarEstudiante(Estudiante estudiante){
-        listaDeEstudiantes.add(estudiante);
+        listaDeEstudiantesInscritos.add(estudiante);
     }
     
     //se usuaria up casting  para dividir las tareas de las evaluacion
@@ -53,7 +53,7 @@ public class Curso {
     }
 
     public List<Estudiante> getListaDeEstudiantes() {
-        return listaDeEstudiantes;
+        return listaDeEstudiantesInscritos;
     }
 
     public List<Foro> getForos() {
@@ -81,7 +81,7 @@ public class Curso {
     }
 
     public void setListaDeEstudiantes(List<Estudiante> listaDeEstudiantes) {
-        this.listaDeEstudiantes = listaDeEstudiantes;
+        this.listaDeEstudiantesInscritos = listaDeEstudiantes;
     }
 
     public void setForos(List<Foro> foros) {
