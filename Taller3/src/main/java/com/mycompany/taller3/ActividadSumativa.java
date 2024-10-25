@@ -29,7 +29,7 @@ public class ActividadSumativa {
 
     public String getTitulo() {
         return titulo;
-    }
+}
 
     public Date getFechaDeEntraga() {
         return fechaDeEntraga;
