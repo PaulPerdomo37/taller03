@@ -15,7 +15,8 @@ public class Curso {
     private String nombre;
     private boolean estadoDisponible;
     private Profesor profesor;
-    private List<Estudiante> listaDeEstudiantes;
+    private List<Estudiante> listaDeEstudiantesInscritos;
+    private List<Estudiante> listaDeEstudiantesEnEspera;
     private List<Foro> foros;
     private List<ActividadSumativa> actividadesDelCurso;
 
